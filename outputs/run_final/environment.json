@@ -1,0 +1,169 @@
+{
+  "run_id": "run_final",
+  "dry_run": false,
+  "date_utc": "2026-10-22T09:58:43.483132+00:00",
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "openai": "3.14.1",
+    "pandas": "2.3.3",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.6"
+  },
+  "models_requested": [
+    "gpt-4o-2024-08-06",
+    "gpt-4o-mini-2024-07-18"
+  ],
+  "architectures": [
+    "multi_agent",
+    "single_agent"
+  ],
+  "energy_benchmark_per_model": {
+    "gpt-4o-2024-08-06": [
+      [
+        100,
+        300,
+        0.423
+      ],
+      [
+        1000,
+        1000,
+        1.215
+      ],
+      [
+        10000,
+        1500,
+        2.875
+      ]
+    ],
+    "gpt-4o-mini-2024-07-18": [
+      [
+        100,
+        300,
+        0.577
+      ],
+      [
+        1000,
+        1000,
+        1.897
+      ],
+      [
+        10000,
+        1500,
+        3.098
+      ]
+    ]
+  },
+  "models_returned": [
+    "gpt-4o-2024-08-06",
+    "gpt-4o-mini-2024-07-18"
+  ],
+  "system_fingerprints": [
+    "fp_0157cc0427",
+    "fp_01a55b9f25",
+    "fp_01ca53b73a",
+    "fp_07d47c81e6",
+    "fp_09f36310b5",
+    "fp_0c63340341",
+    "fp_0ca0003e75",
+    "fp_0d55417811",
+    "fp_0e7150ae59",
+    "fp_0f86f2b5a2",
+    "fp_109d01f5b1",
+    "fp_10a66c9e69",
+    "fp_15e2468fb7",
+    "fp_16c1774bc0",
+    "fp_18581e8a86",
+    "fp_1aa955b2cd",
+    "fp_22ba900b6f",
+    "fp_242228cf5a",
+    "fp_27b52db0fd",
+    "fp_2851888338",
+    "fp_2bf95129ab",
+    "fp_315007f291",
+    "fp_3bfbcbf18d",
+    "fp_438567d0ff",
+    "fp_46020f4d74",
+    "fp_465d6a0752",
+    "fp_46c8761086",
+    "fp_4a2c777002",
+    "fp_4be5992575",
+    "fp_4c55ec580f",
+    "fp_4c910a9acf",
+    "fp_4ef908cf62",
+    "fp_55e838642c",
+    "fp_5c838cbcac",
+    "fp_6548d98151",
+    "fp_6794b26d19",
+    "fp_6841159c0c",
+    "fp_6c1965d4ed",
+    "fp_71fee889d4",
+    "fp_734e12a708",
+    "fp_773fccf863",
+    "fp_7caa1ae073",
+    "fp_80342fdd91",
+    "fp_8421a6e076",
+    "fp_87d0b744be",
+    "fp_89ea449874",
+    "fp_8a3291817b",
+    "fp_922e593747",
+    "fp_9348991c96",
+    "fp_9fdb32c1c4",
+    "fp_a010e5d37f",
+    "fp_a71b930f7c",
+    "fp_ab4674eefd",
+    "fp_abece49bdc",
+    "fp_af5b2e4445",
+    "fp_b0f2fc3028",
+    "fp_b11ef98e16",
+    "fp_b1d2088886",
+    "fp_b46ea19598",
+    "fp_b89ba08356",
+    "fp_b9d55fd93a",
+    "fp_bbf31a9d1e",
+    "fp_bdfeb08e5b",
+    "fp_c03a0f9ea3",
+    "fp_c1ed72a7a6",
+    "fp_c44d37cc71",
+    "fp_cd839501f6",
+    "fp_d142c6f8f4",
+    "fp_d3b38c8dc1",
+    "fp_d44a43dee5",
+    "fp_d4c42c8db7",
+    "fp_d87998b222",
+    "fp_d91fb09e94",
+    "fp_d932b185f7",
+    "fp_db7e62768c",
+    "fp_dca2fd68b3",
+    "fp_dfc829e7ce",
+    "fp_e0851bd988",
+    "fp_e3af1ca7c9",
+    "fp_e4f05ff06a",
+    "fp_e85bcce457",
+    "fp_e9e83bb9dc",
+    "fp_ea66447ca3",
+    "fp_f1b0ec5777",
+    "fp_f25eb1e633",
+    "fp_f263dd6940",
+    "fp_f424ae74df",
+    "fp_f7b4d32ac4",
+    "fp_fa7dc80a62",
+    "fp_fd3020c6f0"
+  ],
+  "n_alerts": 75,
+  "n_repeats": 3,
+  "dataset_sha256": "e539575e8ab55cc600241652a6f17684e9bb4adee98aedda2a7ef15ac0263bac",
+  "n_llm_calls": 2252,
+  "n_failures": 2,
+  "seed": 42,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": {
+    "triage": 400,
+    "mitre": 500,
+    "investigation": 900,
+    "reporting": 1200,
+    "single": 2500
+  },
+  "prompt_version": "v2.0"
+}

@@ -1,0 +1,21 @@
+model,IA,référence,nature,p2.5,médiane,p97.5
+gpt-4o-2024-08-06_multi_agent,Hybride IA (E2) + relecture humaine,Humain – triage L1,EXTRAPOLÉ,-77.82451613409481,49.73720371011272,278.3983781192959
+gpt-4o-2024-08-06_multi_agent,Hybride IA (E1) + relecture humaine,Humain – triage L1,EXTRAPOLÉ,-79.03219491844138,48.824772186632366,277.78662181490347
+gpt-4o-2024-08-06_multi_agent,Hybride IA (E2) + relecture humaine,Humain – investigation complète,EXTRAPOLÉ,122.13039209385333,668.0990109268757,2296.0525348396177
+gpt-4o-2024-08-06_multi_agent,IA seule (E2),Humain – investigation complète,EXTRAPOLÉ,179.9692486849347,807.2041726316947,2540.3560467876964
+gpt-4o-2024-08-06_multi_agent,IA seule (E1),Humain – investigation complète,EXTRAPOLÉ,179.82912072203476,806.4535993945676,2539.565032340872
+gpt-4o-2024-08-06_single_agent,Hybride IA (E2) + relecture humaine,Humain – triage L1,EXTRAPOLÉ,-73.39704582379201,52.854867016320924,289.8270031585643
+gpt-4o-2024-08-06_single_agent,Hybride IA (E1) + relecture humaine,Humain – triage L1,EXTRAPOLÉ,-73.30312294494257,53.00669906357409,289.8760677109556
+gpt-4o-2024-08-06_single_agent,Hybride IA (E2) + relecture humaine,Humain – investigation complète,EXTRAPOLÉ,129.4756312755974,664.4484940203427,2240.460953328548
+gpt-4o-2024-08-06_single_agent,IA seule (E2),Humain – investigation complète,EXTRAPOLÉ,188.93822144955155,799.2756246775775,2499.1623698609556
+gpt-4o-2024-08-06_single_agent,IA seule (E1),Humain – investigation complète,EXTRAPOLÉ,188.6186411440967,799.4670338869603,2499.1843155251445
+gpt-4o-mini-2024-07-18_multi_agent,Hybride IA (E2) + relecture humaine,Humain – triage L1,EXTRAPOLÉ,-74.43779221451598,49.70381971817288,280.1898648169719
+gpt-4o-mini-2024-07-18_multi_agent,Hybride IA (E1) + relecture humaine,Humain – triage L1,EXTRAPOLÉ,-77.24271828403123,47.07863629225194,277.6669502948799
+gpt-4o-mini-2024-07-18_multi_agent,Hybride IA (E2) + relecture humaine,Humain – investigation complète,EXTRAPOLÉ,126.87937349772119,661.4021179290266,2307.8135090676465
+gpt-4o-mini-2024-07-18_multi_agent,IA seule (E2),Humain – investigation complète,EXTRAPOLÉ,185.4536985725175,796.9779421208557,2544.4179836046524
+gpt-4o-mini-2024-07-18_multi_agent,IA seule (E1),Humain – investigation complète,EXTRAPOLÉ,183.4763365671326,794.4111188080365,2541.5472315271786
+gpt-4o-mini-2024-07-18_single_agent,Hybride IA (E2) + relecture humaine,Humain – triage L1,EXTRAPOLÉ,-72.30104231434446,54.15142339369389,287.55303128972525
+gpt-4o-mini-2024-07-18_single_agent,Hybride IA (E1) + relecture humaine,Humain – triage L1,EXTRAPOLÉ,-72.87487635615581,53.756762582959745,287.59637366974965
+gpt-4o-mini-2024-07-18_single_agent,Hybride IA (E2) + relecture humaine,Humain – investigation complète,EXTRAPOLÉ,134.18790074191492,673.2873963442792,2310.716877429704
+gpt-4o-mini-2024-07-18_single_agent,IA seule (E2),Humain – investigation complète,EXTRAPOLÉ,191.16400452128315,811.7963166401414,2542.7495017259066
+gpt-4o-mini-2024-07-18_single_agent,IA seule (E1),Humain – investigation complète,EXTRAPOLÉ,191.42557004972414,811.2867126146052,2542.742629940954
