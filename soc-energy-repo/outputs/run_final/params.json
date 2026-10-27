@@ -1,0 +1,128 @@
+{
+  "params": {
+    "E_QUERY_WH": {
+      "central": 0.31,
+      "low": 0.16,
+      "high": 0.6,
+      "unit": "Wh/requête",
+      "includes_pue": true,
+      "source": "Réf. [6] : Oviedo et al., 'Energy use of AI inference, efficiency pathways, and test-time scaling', Joule, 2026, doi:10.1016/j.joule.2026.102430 (arXiv:2509.20241) : médiane 0,31 Wh/requête (IQR 0,16–0,60), requête type 500 tokens entrée / 300 sortie ; PUE INCLUS (log-normale P5–P95 1,05–1,40)",
+      "note": "Plage = IQR publié. Pour GPT-4o mini, multiplié par le rapport Jegham [12] mini/4o (E1_FACTOR)."
+    },
+    "E_OUT_J_PER_TOKEN": {
+      "central": 3.5,
+      "low": 1.0,
+      "high": 4.0,
+      "unit": "J/token de sortie",
+      "includes_pue": false,
+      "source": "Réf. [10] : Samsi et al., 'From Words to Watts: Benchmarking the Energy Costs of Large Language Model Inference', IEEE HPEC 2023 : ≈ 3–4 J par token de sortie, LLaMA-65B, énergie GPU seule (sans PUE)",
+      "note": "Borne basse 1 J : matériel plus récent et batching en production (HYPOTHÈSE)."
+    },
+    "PREFILL_RATIO": {
+      "central": 0.13,
+      "low": 0.05,
+      "high": 0.3,
+      "unit": "ratio",
+      "source": "Dérivé de la réf. [12] (Jegham et al., Table 4 : ajustement linéaire sur les 3 tailles de prompt GPT-4o : ≈ 0,47 J/token entrée vs 3,5 J/token sortie) — calcul reproduit au §3/§12",
+      "note": "Énergie d'un token d'entrée / énergie d'un token de sortie."
+    },
+    "PUE": {
+      "central": 1.12,
+      "low": 1.09,
+      "high": 1.54,
+      "unit": "-",
+      "source": "Central : PUE Azure 1,12 (réf. [12], Table 1, d'après Microsoft). Haut : moyenne mondiale 1,54, Uptime Institute Global Data Center Survey 2025 (UII Keynote Report 180, juillet 2025) — remplace la réf. [37] erronée",
+      "note": "Appliqué UNIQUEMENT aux coefficients avec includes_pue=False (ici E2)."
+    },
+    "CI_CLOUD": {
+      "central": 350,
+      "low": 250,
+      "high": 435,
+      "unit": "gCO2e/kWh",
+      "source": "0,35 kgCO2e/kWh pour l'inférence OpenAI sur Azure (réf. [12], Table 1, d'après le rapport de durabilité Microsoft) ; haut = moyenne mondiale IEA 2025 (réf. [41])",
+      "note": "Réseau du datacenter (inférence)."
+    },
+    "CI_WORKSTATION": {
+      "central": 435,
+      "low": 50,
+      "high": 750,
+      "unit": "gCO2e/kWh",
+      "source": "Réf. [41] : IEA, Electricity 2026, chapitre Emissions : intensité mondiale moyenne = 435 gCO2/kWh en 2025, 360 en 2030 (445 en 2024 selon IEA Electricity 2025). Maroc : 536 gCO2e/kWh (LowCarbonPower.org, données Ember, avr. 2025–mars 2026)",
+      "note": "Réseau du pays du SOC (postes analystes). Plage = réseaux bas carbone → fortement carbonés."
+    },
+    "WS_POWER_W": {
+      "central": 120,
+      "low": 70,
+      "high": 250,
+      "unit": "W",
+      "source": "Ordinateur de bureau actif 36–250 W (moyenne 55 W) et écran LCD 15–35 W : synthèse DSSW 'Review of Computer Energy Consumption' (Kawamoto et al. 2001/2004, Roberson et al. 2002). Central = 1 PC + 2 écrans. IDÉAL : mesure au wattmètre",
+      "note": "Poste + écrans en usage actif."
+    },
+    "WS_ATTRIBUTION": {
+      "central": 1.0,
+      "low": 0.5,
+      "high": 1.0,
+      "unit": "fraction",
+      "source": "HYPOTHÈSE de modélisation (charge partagée), testée en sensibilité",
+      "note": "Part du poste attribuable à UNE alerte (<1 = investigations en parallèle)."
+    },
+    "HUMAN_MIN_TRIAGE_L1": {
+      "central": 20,
+      "low": 10,
+      "high": 45,
+      "unit": "min/alerte",
+      "source": "HYPOTHÈSE (scénario conservateur, triage L1 seul), testée en sensibilité ; à remplacer par une mesure si possible",
+      "note": "Scénario conservateur : triage niveau 1 seulement."
+    },
+    "HUMAN_MIN_FULL_INVEST": {
+      "central": 70,
+      "low": 30,
+      "high": 240,
+      "unit": "min/alerte",
+      "source": "'The State of AI in the SOC 2025' (enquête auprès de 282 responsables sécurité, rapportée par The Hacker News, sept. 2025) : 70 min en moyenne pour investiguer complètement une alerte. Haut = 4 h (borne haute de la source 2–4 h du manuscrit)",
+      "note": "Remplace 250 min (non justifié)."
+    },
+    "HUMAN_REVIEW_MIN": {
+      "central": 15,
+      "low": 5,
+      "high": 30,
+      "unit": "min/alerte",
+      "source": "HYPOTHÈSE (relecture humaine du rapport IA), testée en sensibilité",
+      "note": "Relecture humaine résiduelle (scénario hybride)."
+    },
+    "CLIENT_W": {
+      "central": 30,
+      "low": 10,
+      "high": 60,
+      "unit": "W",
+      "source": "HYPOTHÈSE (ordinateur portable pendant la latence API) ; impact négligeable (§16)",
+      "note": "Machine qui orchestre le pipeline."
+    },
+    "SOAR_CPU_W": {
+      "central": 30,
+      "low": 10,
+      "high": 65,
+      "unit": "W",
+      "source": "HYPOTHÈSE (puissance CPU d'un serveur attribuée au playbook) ; le temps CPU est mesuré (§11)",
+      "note": ""
+    },
+    "ALERTS_PER_YEAR": {
+      "central": 10000,
+      "low": 10000,
+      "high": 10000,
+      "unit": "alertes/an",
+      "source": "Unité de normalisation (résultats exprimés pour 10 000 alertes investiguées) ; ordre de grandeur réel : 960 alertes/jour en moyenne (State of AI in the SOC 2025)",
+      "note": "Fixe : le lecteur met à l'échelle selon son volume."
+    },
+    "REASONING_TOKEN_MULT": {
+      "central": 8,
+      "low": 3,
+      "high": 20,
+      "unit": "x tokens de sortie",
+      "source": "HYPOTHÈSE (PROJECTION, non mesurée)",
+      "note": "Extended reasoning."
+    }
+  },
+  "n_queries_theoretical": 12,
+  "n_monte_carlo": 20000
+}

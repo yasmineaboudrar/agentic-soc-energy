@@ -1,0 +1,145 @@
+model,réseau cloud,réseau SOC,hybride E2 (g),humain L1 (g),réduction %
+gpt-4o-2024-08-06_multi_agent,bas carbone,bas carbone,1.569827614143951,2.0,21.508619292802457
+gpt-4o-2024-08-06_multi_agent,bas carbone,intermédiaire,7.601628873880248,10.0,23.983711261197517
+gpt-4o-2024-08-06_multi_agent,bas carbone,Azure (350),10.617529503748395,14.0,24.160503544654322
+gpt-4o-2024-08-06_multi_agent,bas carbone,moyenne mondiale IEA 2025 (435),13.181045039136322,17.4,24.246867591170563
+gpt-4o-2024-08-06_multi_agent,bas carbone,Maroc (536),16.227104675303153,21.44,24.313877447280074
+gpt-4o-2024-08-06_multi_agent,bas carbone,fortement carboné,22.68113202322099,30.0,24.39622658926337
+gpt-4o-2024-08-06_multi_agent,intermédiaire,bas carbone,1.8173368109834571,2.0,9.133159450827144
+gpt-4o-2024-08-06_multi_agent,intermédiaire,intermédiaire,7.849138070719755,10.0,21.508619292802443
+gpt-4o-2024-08-06_multi_agent,intermédiaire,Azure (350),10.865038700587903,14.0,22.392580710086406
+gpt-4o-2024-08-06_multi_agent,intermédiaire,moyenne mondiale IEA 2025 (435),13.42855423597583,17.4,22.824400942667644
+gpt-4o-2024-08-06_multi_agent,intermédiaire,Maroc (536),16.474613872142662,21.44,23.159450223215206
+gpt-4o-2024-08-06_multi_agent,intermédiaire,fortement carboné,22.9286412200605,30.0,23.571195933131673
+gpt-4o-2024-08-06_multi_agent,Azure (350),bas carbone,1.9410914094032103,2.0,2.945429529839483
+gpt-4o-2024-08-06_multi_agent,Azure (350),intermédiaire,7.972892669139508,10.0,20.271073308604915
+gpt-4o-2024-08-06_multi_agent,Azure (350),Azure (350),10.988793299007654,14.0,21.50861929280248
+gpt-4o-2024-08-06_multi_agent,Azure (350),moyenne mondiale IEA 2025 (435),13.552308834395582,17.4,22.113167618416185
+gpt-4o-2024-08-06_multi_agent,Azure (350),Maroc (536),16.598368470562413,21.44,22.582236611182783
+gpt-4o-2024-08-06_multi_agent,Azure (350),fortement carboné,23.05239581848025,30.0,23.15868060506584
+gpt-4o-2024-08-06_multi_agent,moyenne mondiale IEA 2025 (435),bas carbone,2.0462828180600003,2.0,-2.314140903000017
+gpt-4o-2024-08-06_multi_agent,moyenne mondiale IEA 2025 (435),intermédiaire,8.078084077796298,10.0,19.219159222037018
+gpt-4o-2024-08-06_multi_agent,moyenne mondiale IEA 2025 (435),Azure (350),11.093984707664447,14.0,20.757252088111088
+gpt-4o-2024-08-06_multi_agent,moyenne mondiale IEA 2025 (435),moyenne mondiale IEA 2025 (435),13.657500243052374,17.4,21.508619292802443
+gpt-4o-2024-08-06_multi_agent,moyenne mondiale IEA 2025 (435),Maroc (536),16.703559879219203,21.44,22.09160504095522
+gpt-4o-2024-08-06_multi_agent,moyenne mondiale IEA 2025 (435),fortement carboné,23.157587227137043,30.0,22.808042576209854
+gpt-4o-2024-08-06_multi_agent,Maroc (536),bas carbone,2.171274962463951,2.0,-8.563748123197556
+gpt-4o-2024-08-06_multi_agent,Maroc (536),intermédiaire,8.203076222200249,10.0,17.969237777997517
+gpt-4o-2024-08-06_multi_agent,Maroc (536),Azure (350),11.218976852068396,14.0,19.86445105665432
+gpt-4o-2024-08-06_multi_agent,Maroc (536),moyenne mondiale IEA 2025 (435),13.782492387456324,17.4,20.790273635308477
+gpt-4o-2024-08-06_multi_agent,Maroc (536),Maroc (536),16.828552023623157,21.44,21.508619292802443
+gpt-4o-2024-08-06_multi_agent,Maroc (536),fortement carboné,23.282579371540987,30.0,22.391402094863377
+gpt-4o-2024-08-06_multi_agent,fortement carboné,bas carbone,2.4361098030822226,2.0,-21.80549015411113
+gpt-4o-2024-08-06_multi_agent,fortement carboné,intermédiaire,8.46791106281852,10.0,15.320889371814806
+gpt-4o-2024-08-06_multi_agent,fortement carboné,Azure (350),11.483811692686668,14.0,17.97277362366666
+gpt-4o-2024-08-06_multi_agent,fortement carboné,moyenne mondiale IEA 2025 (435),14.047327228074593,17.4,19.268234321410382
+gpt-4o-2024-08-06_multi_agent,fortement carboné,Maroc (536),17.093386864241428,21.44,20.273382163053043
+gpt-4o-2024-08-06_multi_agent,fortement carboné,fortement carboné,23.54741421215926,30.0,21.508619292802468
+gpt-4o-2024-08-06_single_agent,bas carbone,bas carbone,1.5224459164617903,2.0,23.877704176910484
+gpt-4o-2024-08-06_single_agent,bas carbone,intermédiaire,7.528829017370679,10.0,24.711709826293205
+gpt-4o-2024-08-06_single_agent,bas carbone,Azure (350),10.532020567825123,14.0,24.771281658391974
+gpt-4o-2024-08-06_single_agent,bas carbone,moyenne mondiale IEA 2025 (435),13.084733385711402,17.4,24.800382840739065
+gpt-4o-2024-08-06_single_agent,bas carbone,Maroc (536),16.117956851670392,21.44,24.82296244556721
+gpt-4o-2024-08-06_single_agent,bas carbone,fortement carboné,22.544786769642904,30.0,24.850710767856988
+gpt-4o-2024-08-06_single_agent,intermédiaire,bas carbone,1.605846481400062,2.0,19.707675929996903
+gpt-4o-2024-08-06_single_agent,intermédiaire,intermédiaire,7.612229582308951,10.0,23.877704176910484
+gpt-4o-2024-08-06_single_agent,intermédiaire,Azure (350),10.615421132763394,14.0,24.175563337404327
+gpt-4o-2024-08-06_single_agent,intermédiaire,moyenne mondiale IEA 2025 (435),13.168133950649672,17.4,24.321069249139814
+gpt-4o-2024-08-06_single_agent,intermédiaire,Maroc (536),16.201357416608662,21.44,24.433967273280498
+gpt-4o-2024-08-06_single_agent,intermédiaire,fortement carboné,22.628187334581174,30.0,24.572708884729423
+gpt-4o-2024-08-06_single_agent,Azure (350),bas carbone,1.6475467638691976,2.0,17.62266180654012
+gpt-4o-2024-08-06_single_agent,Azure (350),intermédiaire,7.653929864778086,10.0,23.46070135221914
+gpt-4o-2024-08-06_single_agent,Azure (350),Azure (350),10.657121415232531,14.0,23.8777041769105
+gpt-4o-2024-08-06_single_agent,Azure (350),moyenne mondiale IEA 2025 (435),13.20983423311881,17.4,24.081412453340167
+gpt-4o-2024-08-06_single_agent,Azure (350),Maroc (536),16.2430576990778,21.44,24.239469687137138
+gpt-4o-2024-08-06_single_agent,Azure (350),fortement carboné,22.669887617050307,30.0,24.43370794316564
+gpt-4o-2024-08-06_single_agent,moyenne mondiale IEA 2025 (435),bas carbone,1.682992003967963,2.0,15.850399801601856
+gpt-4o-2024-08-06_single_agent,moyenne mondiale IEA 2025 (435),intermédiaire,7.689375104876851,10.0,23.10624895123149
+gpt-4o-2024-08-06_single_agent,moyenne mondiale IEA 2025 (435),Azure (350),10.692566655331296,14.0,23.624523890490746
+gpt-4o-2024-08-06_single_agent,moyenne mondiale IEA 2025 (435),moyenne mondiale IEA 2025 (435),13.245279473217574,17.4,23.877704176910484
+gpt-4o-2024-08-06_single_agent,moyenne mondiale IEA 2025 (435),Maroc (536),16.278502939176565,21.44,24.07414673891528
+gpt-4o-2024-08-06_single_agent,moyenne mondiale IEA 2025 (435),fortement carboné,22.705332857149074,30.0,24.31555714283642
+gpt-4o-2024-08-06_single_agent,Maroc (536),bas carbone,1.7251092892617903,2.0,13.744535536910485
+gpt-4o-2024-08-06_single_agent,Maroc (536),intermédiaire,7.731492390170679,10.0,22.685076098293212
+gpt-4o-2024-08-06_single_agent,Maroc (536),Azure (350),10.734683940625121,14.0,23.323686138391984
+gpt-4o-2024-08-06_single_agent,Maroc (536),moyenne mondiale IEA 2025 (435),13.287396758511402,17.4,23.635650813152854
+gpt-4o-2024-08-06_single_agent,Maroc (536),Maroc (536),16.320620224470392,21.44,23.877704176910484
+gpt-4o-2024-08-06_single_agent,Maroc (536),fortement carboné,22.747450142442904,30.0,24.175166191856988
+gpt-4o-2024-08-06_single_agent,fortement carboné,bas carbone,1.814347893745741,2.0,9.282605312712954
+gpt-4o-2024-08-06_single_agent,fortement carboné,intermédiaire,7.820730994654629,10.0,21.79269005345371
+gpt-4o-2024-08-06_single_agent,fortement carboné,Azure (350),10.823922545109074,14.0,22.68626753493519
+gpt-4o-2024-08-06_single_agent,fortement carboné,moyenne mondiale IEA 2025 (435),13.37663536299535,17.4,23.122785270141666
+gpt-4o-2024-08-06_single_agent,fortement carboné,Maroc (536),16.40985882895434,21.44,23.461479342563706
+gpt-4o-2024-08-06_single_agent,fortement carboné,fortement carboné,22.836688746926853,30.0,23.877704176910484
+gpt-4o-mini-2024-07-18_multi_agent,bas carbone,bas carbone,1.571396516477777,2.0,21.43017417611115
+gpt-4o-mini-2024-07-18_multi_agent,bas carbone,intermédiaire,7.599681448166662,10.0,24.00318551833338
+gpt-4o-mini-2024-07-18_multi_agent,bas carbone,Azure (350),10.613823914011103,14.0,24.186972042777832
+gpt-4o-mini-2024-07-18_multi_agent,bas carbone,moyenne mondiale IEA 2025 (435),13.175845009978882,17.4,24.27675281621331
+gpt-4o-mini-2024-07-18_multi_agent,bas carbone,Maroc (536),16.22012890048177,21.44,24.346413710439506
+gpt-4o-mini-2024-07-18_multi_agent,bas carbone,fortement carboné,22.670393777388874,30.0,24.432020742037086
+gpt-4o-mini-2024-07-18_multi_agent,intermédiaire,bas carbone,1.8286976506999992,2.0,8.56511746500004
+gpt-4o-mini-2024-07-18_multi_agent,intermédiaire,intermédiaire,7.856982582388885,10.0,21.43017417611115
+gpt-4o-mini-2024-07-18_multi_agent,intermédiaire,Azure (350),10.871125048233326,14.0,22.349106798333384
+gpt-4o-mini-2024-07-18_multi_agent,intermédiaire,moyenne mondiale IEA 2025 (435),13.433146144201103,17.4,22.798010665510894
+gpt-4o-mini-2024-07-18_multi_agent,intermédiaire,Maroc (536),16.477430034703993,21.44,23.146315136641824
+gpt-4o-mini-2024-07-18_multi_agent,intermédiaire,fortement carboné,22.9276949116111,30.0,23.574350294629674
+gpt-4o-mini-2024-07-18_multi_agent,Azure (350),bas carbone,1.9573482178111106,2.0,2.1325891094444716
+gpt-4o-mini-2024-07-18_multi_agent,Azure (350),intermédiaire,7.985633149499996,10.0,20.143668505000033
+gpt-4o-mini-2024-07-18_multi_agent,Azure (350),Azure (350),10.999775615344438,14.0,21.430174176111162
+gpt-4o-mini-2024-07-18_multi_agent,Azure (350),moyenne mondiale IEA 2025 (435),13.561796711312214,17.4,22.05863959015969
+gpt-4o-mini-2024-07-18_multi_agent,Azure (350),Maroc (536),16.606080601815105,21.44,22.546265849742987
+gpt-4o-mini-2024-07-18_multi_agent,Azure (350),fortement carboné,23.056345478722207,30.0,23.14551507092598
+gpt-4o-mini-2024-07-18_multi_agent,moyenne mondiale IEA 2025 (435),bas carbone,2.066701199855555,2.0,-3.3350599927777447
+gpt-4o-mini-2024-07-18_multi_agent,moyenne mondiale IEA 2025 (435),intermédiaire,8.094986131544442,10.0,19.050138684555584
+gpt-4o-mini-2024-07-18_multi_agent,moyenne mondiale IEA 2025 (435),Azure (350),11.109128597388882,14.0,20.649081447222272
+gpt-4o-mini-2024-07-18_multi_agent,moyenne mondiale IEA 2025 (435),moyenne mondiale IEA 2025 (435),13.67114969335666,17.4,21.430174176111137
+gpt-4o-mini-2024-07-18_multi_agent,moyenne mondiale IEA 2025 (435),Maroc (536),16.715433583859546,21.44,22.036223955878988
+gpt-4o-mini-2024-07-18_multi_agent,moyenne mondiale IEA 2025 (435),fortement carboné,23.165698460766652,30.0,22.78100513077782
+gpt-4o-mini-2024-07-18_multi_agent,Maroc (536),bas carbone,2.1966382726377773,2.0,-9.831913631888867
+gpt-4o-mini-2024-07-18_multi_agent,Maroc (536),intermédiaire,8.224923204326663,10.0,17.75076795673337
+gpt-4o-mini-2024-07-18_multi_agent,Maroc (536),Azure (350),11.239065670171104,14.0,19.720959498777823
+gpt-4o-mini-2024-07-18_multi_agent,Maroc (536),moyenne mondiale IEA 2025 (435),13.801086766138882,17.4,20.683409390006425
+gpt-4o-mini-2024-07-18_multi_agent,Maroc (536),Maroc (536),16.84537065664177,21.44,21.43017417611115
+gpt-4o-mini-2024-07-18_multi_agent,Maroc (536),fortement carboné,23.295635533548875,30.0,22.34788155483708
+gpt-4o-mini-2024-07-18_multi_agent,fortement carboné,bas carbone,2.471950486255555,2.0,-23.59752431277775
+gpt-4o-mini-2024-07-18_multi_agent,fortement carboné,intermédiaire,8.50023541794444,10.0,14.997645820555604
+gpt-4o-mini-2024-07-18_multi_agent,fortement carboné,Azure (350),11.514377883788883,14.0,17.754443687222267
+gpt-4o-mini-2024-07-18_multi_agent,fortement carboné,moyenne mondiale IEA 2025 (435),14.07639897975666,17.4,19.10115528875481
+gpt-4o-mini-2024-07-18_multi_agent,fortement carboné,Maroc (536),17.120682870259547,21.44,20.146068702147645
+gpt-4o-mini-2024-07-18_multi_agent,fortement carboné,fortement carboné,23.570947747166656,30.0,21.43017417611115
+gpt-4o-mini-2024-07-18_single_agent,bas carbone,bas carbone,1.5228189586477159,2.0,23.859052067614208
+gpt-4o-mini-2024-07-18_single_agent,bas carbone,intermédiaire,7.531797635707715,10.0,24.682023642922847
+gpt-4o-mini-2024-07-18_single_agent,bas carbone,Azure (350),10.536286974237715,14.0,24.74080732687346
+gpt-4o-mini-2024-07-18_single_agent,bas carbone,moyenne mondiale IEA 2025 (435),13.090102911988215,17.4,24.7695234943206
+gpt-4o-mini-2024-07-18_single_agent,bas carbone,Maroc (536),16.124637143903517,21.44,24.79180436612166
+gpt-4o-mini-2024-07-18_single_agent,bas carbone,fortement carboné,22.55424432835771,30.0,24.819185572140967
+gpt-4o-mini-2024-07-18_single_agent,intermédiaire,bas carbone,1.6051161161785803,2.0,19.744194191070985
+gpt-4o-mini-2024-07-18_single_agent,intermédiaire,intermédiaire,7.61409479323858,10.0,23.859052067614194
+gpt-4o-mini-2024-07-18_single_agent,intermédiaire,Azure (350),10.618584131768579,14.0,24.1529704873673
+gpt-4o-mini-2024-07-18_single_agent,intermédiaire,moyenne mondiale IEA 2025 (435),13.17240006951908,17.4,24.296551324602977
+gpt-4o-mini-2024-07-18_single_agent,intermédiaire,Maroc (536),16.20693430143438,21.44,24.407955683608307
+gpt-4o-mini-2024-07-18_single_agent,intermédiaire,fortement carboné,22.636541485888575,30.0,24.544861713704748
+gpt-4o-mini-2024-07-18_single_agent,Azure (350),bas carbone,1.6462646949440123,2.0,17.686765252799386
+gpt-4o-mini-2024-07-18_single_agent,Azure (350),intermédiaire,7.655243372004012,10.0,23.447566279959876
+gpt-4o-mini-2024-07-18_single_agent,Azure (350),Azure (350),10.659732710534012,14.0,23.859052067614194
+gpt-4o-mini-2024-07-18_single_agent,Azure (350),moyenne mondiale IEA 2025 (435),13.21354864828451,17.4,24.060065239744187
+gpt-4o-mini-2024-07-18_single_agent,Azure (350),Maroc (536),16.24808288019981,21.44,24.21603134235164
+gpt-4o-mini-2024-07-18_single_agent,Azure (350),fortement carboné,22.67769006465401,30.0,24.407699784486635
+gpt-4o-mini-2024-07-18_single_agent,moyenne mondiale IEA 2025 (435),bas carbone,1.6812409868946299,2.0,15.937950655268507
+gpt-4o-mini-2024-07-18_single_agent,moyenne mondiale IEA 2025 (435),intermédiaire,7.690219663954629,10.0,23.097803360453707
+gpt-4o-mini-2024-07-18_single_agent,moyenne mondiale IEA 2025 (435),Azure (350),10.694709002484629,14.0,23.609221410824077
+gpt-4o-mini-2024-07-18_single_agent,moyenne mondiale IEA 2025 (435),moyenne mondiale IEA 2025 (435),13.248524940235127,17.4,23.859052067614208
+gpt-4o-mini-2024-07-18_single_agent,moyenne mondiale IEA 2025 (435),Maroc (536),16.28305917215043,21.44,24.052895652283446
+gpt-4o-mini-2024-07-18_single_agent,moyenne mondiale IEA 2025 (435),fortement carboné,22.71266635660463,30.0,24.29111214465124
+gpt-4o-mini-2024-07-18_single_agent,Maroc (536),bas carbone,1.7228010514477161,2.0,13.859947427614195
+gpt-4o-mini-2024-07-18_single_agent,Maroc (536),intermédiaire,7.731779728507716,10.0,22.682202714922838
+gpt-4o-mini-2024-07-18_single_agent,Maroc (536),Azure (350),10.736269067037716,14.0,23.31236380687346
+gpt-4o-mini-2024-07-18_single_agent,Maroc (536),moyenne mondiale IEA 2025 (435),13.290085004788214,17.4,23.620201121906813
+gpt-4o-mini-2024-07-18_single_agent,Maroc (536),Maroc (536),16.324619236703516,21.44,23.859052067614208
+gpt-4o-mini-2024-07-18_single_agent,Maroc (536),fortement carboné,22.754226421157714,30.0,24.15257859614095
+gpt-4o-mini-2024-07-18_single_agent,fortement carboné,bas carbone,1.8108590100057407,2.0,9.457049499712966
+gpt-4o-mini-2024-07-18_single_agent,fortement carboné,intermédiaire,7.81983768706574,10.0,21.801623129342595
+gpt-4o-mini-2024-07-18_single_agent,fortement carboné,Azure (350),10.82432702559574,14.0,22.68337838860186
+gpt-4o-mini-2024-07-18_single_agent,fortement carboné,moyenne mondiale IEA 2025 (435),13.37814296334624,17.4,23.114120900308954
+gpt-4o-mini-2024-07-18_single_agent,fortement carboné,Maroc (536),16.41267719526154,21.44,23.448333977324907
+gpt-4o-mini-2024-07-18_single_agent,fortement carboné,fortement carboné,22.842284379715743,30.0,23.859052067614194
