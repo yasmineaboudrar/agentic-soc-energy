@@ -1,2 +1,0 @@
-{"run_id": "run_final", "model": "gpt-4o-mini-2024-07-18_multi_agent", "api_model": "gpt-4o-mini-2024-07-18", "arch": "multi_agent", "repeat": 2, "alert_id": "M49", "attempt_id": "be8b432a7d1d455e9224c6c751a26d1f", "error": "RuntimeError: Échec après 6 tentatives (investigation)"}
-{"run_id": "run_final", "model": "gpt-4o-mini-2024-07-18_multi_agent", "api_model": "gpt-4o-mini-2024-07-18", "arch": "multi_agent", "repeat": 2, "alert_id": "M28", "attempt_id": "cd6d1daa95d9431f96dbdcbe41c97c38", "error": "RuntimeError: Échec après 6 tentatives (triage)"}
