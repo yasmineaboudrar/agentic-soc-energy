@@ -2,7 +2,7 @@
 
 Companion repository of the IEEE Access article *"Towards Sustainable Cybersecurity Operations: Comparative Modeling and Measurement-Based Estimation of Energy Consumption and Carbon Emissions in Human versus Agentic AI-Based SOC Triage"* (Y. Aboudrar, K. Bouragba, M. Ouzzif).
 
-Archived version (Zenodo): https://doi.org/10.5281/zenodo.XXXXXXXX
+Archived version (Zenodo): https://doi.org/10.5281/zenodo.24112833
 
 ## What is measured and what is estimated
 | Nature | Quantities |
